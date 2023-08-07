@@ -50,7 +50,7 @@
 <p>The project has been successfully deployed using 
 </p>
 
-[Netlify](https://week7-marisiman.netlify.app/)
+`you can check here` :arrow_right: [assignment-week7](https://marisiman-assignment7.netlify.app/)
 
 </div>
 
