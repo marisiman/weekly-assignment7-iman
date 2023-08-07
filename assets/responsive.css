@@ -1,0 +1,176 @@
+/* Mode Responsive any device */
+
+@media screen and (max-width: 991px) {
+    .navbar .nav-wrapper{
+        padding: 0 30px;
+    }
+    .nav-wrapper .menu-wrapper .menu{
+        padding-top: 10px;
+        gap: 20px;
+       
+    }
+    .menu-wrapper .menu .menu-link{
+        font-size: 0.8rem;
+    }
+
+    .menu-wrapper .btn-member{
+        padding: 17px 20px;
+    }
+    .home-wrapper .heading{
+        font-size: 2.5rem;
+    }
+    .content-left .form-panel{
+        width: 480px;
+        height: 90px;
+    }
+    .form-panel .title-form{
+        width: 200px;
+        padding: 7px 0;
+    }
+
+    .content-left .sugestion{
+        font-size: 12px;   
+    }
+}
+
+@media screen and (max-width: 780px) {
+
+    body{
+        background-color: #F1F1E8;
+        font-family: var(--main-font);
+    }
+    
+    section{
+        margin-top: 200px;
+    }
+    
+    .container{
+        max-width: 93.75rem;
+    }
+    
+    .navbar{
+        position: fixed;
+        margin-top: -210px;
+        width: 100%;
+        background-color: #BFDCAE;
+        z-index: 10;
+    }
+
+    
+    /*--------------------------*/
+
+
+    .nav-wrapper .menu-wrapper{
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding-bottom: 3rem;
+        border-radius: 5px;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: .5s ease-in-out;
+        background-color: #BFDCAE;
+    }
+    .nav-wrapper .menu-wrapper.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        transition: .5s ease-in-out;
+    }
+    .menu-toggle.bx-x{
+        transform: rotate(180deg);
+        transition: .5s;
+    }
+    .nav-wrapper .menu-wrapper .menu{
+       display: block;
+    }
+    .menu-wrapper .menu .menu-item{
+       margin: 30px 0;
+    }
+    .menu .menu-item .menu-link{
+        color: #06623B;
+    }
+    .nav-wrapper .menu-toggle{
+        display: flow-root;
+        font-size: 2.5rem;
+        color: var(--main-color);
+        transition: .5s;
+    }
+
+    .home-wrapper .content-right{
+        display: none;
+    }
+
+
+    .home-wrapper .content-left{
+        text-align: center;
+        flex: 0 0 100%;
+    }
+    .home-wrapper .subheading{
+       margin: auto;
+       color: #90AACB;
+    }
+    .home-wrapper .box-wrapper{
+        margin-top: 20px;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .content-left .form-panel{
+        margin: auto;
+
+    }
+
+    .footer{
+        padding: 10px 20px;
+    }
+    .footer .footer-wrapper{
+        justify-content: start;
+        gap: 10px;
+    }
+    .footer-wrapper .col-4-footer .col-5-footer{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    
+    .banner1 .btn-book{
+       margin: 30px auto;
+    }
+
+    .nav-wrapper .menu-toggle{
+        display: flow-root;
+        font-size: 2.5rem;
+        color: var(--main-color);
+        transition: .5s;
+    }
+
+    form{
+        padding: 10px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    .home-wrapper .content-left .heading{
+        margin-top: -58px;
+      }
+
+    .footer-end{
+        margin: auto;
+        display: block;
+        text-align: center;
+
+    }
+
+    .col-1-footer {
+    justify-content: center;
+    }
+
+    .col-5-footer .copy{
+        font-size:small;
+    }
+}

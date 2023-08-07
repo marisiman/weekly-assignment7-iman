@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>PAYMENT ORDER</title>
+
+    <!-- Link Icon for Symbols -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    
+    <!-- For Responsive -->
+    <link rel="stylesheet" href="./assets/responsive.css">
+
+    <!-- function by js -->
+    <script src="./dist/index2.js" defer></script>   
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="container nav-wrapper">
+                <a href="#" class="logo">Empon's<span>shop</span></a>
+                <div class="menu-wrapper">
+                    <ul class="menu">
+                        <li class="menu-item"><a href="#" class="menu-link active">Home</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Services</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">About us</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Contact</a></li>
+                    </ul>
+                    <a href="#" class="btn-member">Member area</a>
+                </div>
+                <div class="menu-toggle bx bxs-grid-alt">
+                </div>
+            </div>
+        </nav>
+
+        <!-- Home Start -->         
+        <section class="home" id="home">
+            <div class="container home-wrapper">
+                <div class="content-left" data-aos="fade-right">
+                    <h1 class="heading">Care About Your Long Term Health With Empon's<span>shop</span></h1>
+                    <p class="subheading">Enjoy and Happy Shopping</p>
+                    
+                </div>
+            </div>
+
+        </section>
+        <!-- Home End -->
+    </header>
+    
+                <!-- Service Opening Start -->
+
+                <section class="service-start">
+                    <div class="row1">
+
+                        <h1 class="heading-service">PAYMENT ORDER HERE</h1>
+                        <p class="subheading-service">The best service that will be with you every time</p>
+
+                    </div>
+
+                    <div class="box-wrapper">
+                        <div class="box">
+                            <i class='bx bxs-check-square'></i>
+                            <p>Care your health</p>
+                        </div>
+                        <div class="box">
+                            <i class='bx bxs-check-square'></i>
+                            <p>Trust with us</p>
+                        </div>
+                    </div>
+                    
+            </section>
+
+
+        <!-- Service Order Start -->
+        
+           <div class="service">
+            
+                <form action="" id="payment-form" class="container service-wrapper" autocomplete="off" >
+
+                    <div class="box-service">
+                        <i class='bx bx-globe'></i>
+                        <h3>Payment Type</h3>
+                        <select id="type" class="todo-order">
+                            <option value="Cash now">Cash Now</option>
+                            <option value="E-payment">E- Payment</option>
+                        </select>        
+                    </div>
+
+                    <div class="box-service">
+                        <i class='bx bxs-notepad'></i>
+                        <h3>Integrity Product</h3>
+                        <input 
+                        id="tofrom"
+                        class="todo-input" 
+                        autofocus 
+                        required
+                        placeholder="Jahe Merah"
+                        type="text" 
+                        maxlength="30"
+                        >
+                               
+                    </div>
+
+                    <div class="box-service">
+                        <i class='bx bxs-hand'></i>
+                        <h3>Safe Life</h3>
+                        <input 
+                        id="details" 
+                        class="todo-detail" 
+                        autofocus 
+                        required
+                        placeholder="Fresh or Dry"
+                        type="text" 
+                        maxlength="30" 
+                        >
+                           
+                    </div>
+
+                    <div class="box-service">
+                        <i class='bx bxs-check-circle'></i>
+                        <h3>Amount </h3>
+                        <input id="amount" class="todo-amount" type="number" placeholder=" kilogram">
+                        
+                    </div>
+
+                    <div class="box-action">
+                        <i class='bx bxs-check-HAND'></i>
+                        <h3>Input Order</h3>
+                        <button type="submit" class="todo-btn">Input</button> 
+
+                        <i class='bx bxs-reset'></i>
+                        <h3>Reset Order</h3>
+                        <button type="reset" class="reset-btn">Reset</button>                        
+                    </div>
+
+                </form>
+                
+                
+                <div id="output">
+                <ul class="todo-list">
+                    <!--
+                    <li>New Todo <input type="checkbox"></li> 
+                    <button class="todo-delete-all">Delete All</button>
+                        -->
+                </ul>
+                
+                </div>
+
+                <!--<div class="row">
+                    <div class="col-lg-12 wrapper">
+                    </div>
+                </div>-->
+
+            </div> 
+            
+            <!-- Service Order End -->
+
+
+
+            <!-- Footer -->
+        <footer class="footer" id="footer">
+
+            <div class="footer-end">
+
+                <div class="col-1-footer">
+                    <h1 class="logo-footer">Empon's<span>shop.</span></h1>
+                    <div class="sosmed-icon">
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                        <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                    </div>
+                </div>
+
+                <div class="col-5-footer">
+                    <p class="copy">&copy;Copyright 2023 All Right Reserved | by Iman</p>
+                </div>
+            </div>
+            
+        </footer>
+
+
+
+</body>
+</html>
